@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Bastone-serif;
+    src: url("fonts/Bastone\ Diamond\ Serif\ Demo.otf");
+}
+
+@font-face {
+    font-family: LED-board;
+    src: url("fonts/led_board-7.ttf")
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    color: #fca311;
+    font-family: Bastone-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.score {
+    font-family: LED-board;
+    height: 50px;
+    width: 100px;
+    color: #e63946;
+    background-color: #14213d;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    text-align: center;
+}
+
+.btn {
+    margin: 10px 0;
+}
